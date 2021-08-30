@@ -1,0 +1,151 @@
+/* DI BAWAH INI ADALAH UNTUK MENGUBAH BAGIAN SELURUH BODY */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+}
+
+/* DI BAWAH INI ADALAH UNTUK MENGUBAH BAGIAN HEADER UNTUK BAGIAN MENU */
+header {
+    background-color: #f7f2b4;
+    /* Memberi Warna background pada bagian header */
+    height: 100px;
+    /* Memberi tinggi pada bagian header  */
+}
+
+.header-logo {
+    float: left;
+    /* Menempatkan Logo atau Tulisan di sebelah kiri pada bagian header  */
+    font-size: 36px;
+    /* Memberi ukuran tulisan untuk logo atau Tulisan  */
+    padding: 30px;
+    /* Memberi jarak di dalam kotak pada bagian header apabila diberi background-color terlebih dahulu supaya terlihat, disini memberi jarak 30px untuk keseluruhan atas,kanan,bawah,kiri */
+}
+
+.header-list li {
+    list-style: none;
+    /* Menghilangkan list pada header-list bagian li */
+    float: left;
+    /* Menempatkan list di sebelah kiri pada bagian header  */
+    padding: 45px 60px;
+    /* Memberi jarak atas,bawah 45px dan kanan,kiri 60px di dalam kotak pada bagian header-list li apabila diberi background-color terlebih dahulu supaya terlihat */
+}
+
+/* DI BAWAH INI ADALAH UNTUK MENGUBAH BAGIAN MAIN YANG DIMANA UNTUK MEMBUAT BERBAGAI KONTEN */
+main {
+    padding: 100px 80px;
+    /* Memberi jarak di dalam kotak pada bagian main apabila diberi background-color terlebih dahulu supaya terlihat, disini memberi jarak 100px untuk atas,bawah dan 80px untuk kanan,kiri */
+}
+
+/* INI ADALAH BAGIAN DARI COPY-CONTAINER DI DALAM BAGIAN MAIN. TERLIHAT APABILA DIBERI BACKGROUND COLOR */
+.copy-container h1 {
+    font-size: 150px;
+    /* Memberi ukuran tulisan untuk judul h1 */
+}
+
+.copy-container h2 {
+    font-size: 70px;
+    /* Memberi ukuran tulisan untuk judul h2 */
+}
+
+
+.copy-container span {
+    color: red;
+    /* Memberi warna titik pada bagian span */
+}
+
+/* INI ADALAH BAGIAN DARI CONTENTS DIBAWAH BAGIAN COPY-CONTAINER DI DALAM BAGIAN MAIN. TERLIHAT APABILA DIBERI BACKGROUND COLOR */
+.contents {
+    height: 500px;
+    /* Memberi tinggi untuk bagian contents */
+    margin-top: 100px;
+    /* Memberi jarak di luar kotak pada bagian contents apabila diberi background-color terlebih dahulu supaya terlihat, disini memberi jarak atas 100px diluar kotak background color dari bagian contents */
+}
+
+/* INI ADALAH BAGIAN DARI TITLE DIBAWAH BAGIAN COPY-CONTAINER DI DALAM BAGIAN CONTENTS DAN DI DALAM BAGIAN MAIN. TERLIHAT APABILA DIBERI BACKGROUND COLOR */
+.title {
+    border-bottom: 2px solid #dee7ec;
+    /* Memberi Garis bawah saja unuk bagian judul h3 pada bagian contents */
+    padding-bottom: 20px;
+    /* Memberi jarak di dalam kotak pada bagian title apabila diberi background-color terlebih dahulu supaya terlihat, disini memberi jarak bawah 20px dari judul h3 */
+    margin-bottom: 50px;
+    /* Memberi jarak di luar kotak pada bagian title apabila diberi background-color terlebih dahulu supaya terlihat, disini memberi jarak bawah 50px untuk ke konten selanjutnya */
+    font-size: 30px;
+}
+
+/* INI ADALAH BAGIAN DARI CONTENTS-ITEM DIBAWAH BAGIAN TITLE DI DALAM BAGIAN CONTENTS DAN DI DALAM BAGIAN MAIN. TERLIHAT APABILA DIBERI BACKGROUND COLOR */
+.contents-item {
+    float: left;
+    /* Menempatkan item di sebelah kiri pada bagian contents-item  */
+    margin-right: 50px;
+    /* Memberi jarak ke kanan 50px pada setiap item gambar supaya terlihat memisah pada bagian contents-item, Apabila diberi background maka warna akan pisah tetapi kalo menggunakan padding warna background tetap menyatu. Ini di dalam bagian contents dan di dalam bagian main, dibawah bagian title  */
+}
+
+.contents-item p {
+    font-size: 25px;
+    /* Memberi ukuran tulisan untuk keterangan paragraf pada item gambar */
+    margin-top: 30px;
+    /* Memberi jarak atas 30px pada keterangan untuk item gambar pada bagian contents-item, Apabila diberi background maka akan terlihat. Ini di dalam bagian contents dan di dalam bagian main */
+}
+
+/* INI ADALAH BAGIAN DARI CONTACT-FORM DIBAWAH BAGIAN CONTENTS-ITEM DI DALAM BAGIAN CONTENTS DAN DI DALAM BAGIAN MAIN. TERLIHAT APABILA DIBERI BACKGROUND COLOR */
+.contact-form {
+    margin-top: 50px;
+    /* Memberi jarak atas 50px dari bagian contact-form ke konten sebelumnya agar terlihat untuk membedakan bagian konten. Apabila diberi background color akan terlihat perbedaannya */
+}
+
+.contact-form input,
+textarea {
+    width: 500px;
+    /* Memberi lebar untuk bagian input dan textarea */
+    margin: 10px 0px 30px 0px;
+    /* Memberi jarak atas 10px dan bawah 30px di luar kotak pada setiap bagian input dan textarea */
+    padding: 20px;
+    /* Memberi jarak keseluruhan di dalam kotak pada setiap bagian input dan textarea, yang dimana untuk mengisi data  */
+    font-size: 20px;
+    /* Memberi ukuran tulisan di dalam bagian input dan textarea */
+    border: 1px solid #dee7ec;
+    /* Membuat garis disetiap sisinya dengan ketebalan 1px warna solid */
+}
+
+.contact-submit {
+    width: 500px;
+    /* Memberi lebar untuk bagian input pada class contact-submit */
+    margin: 20px 0px 10px 0px;
+    /* Memberi jarak atas 20px dan bawah 10px di luar kotak pada bagian input di class contact-submit */
+    background-color: #dee7ec;
+    /* Memberi background pada bagian input di class contact-submit */
+    color: #889eab;
+    /* Memberi warna tulisan pada bagian input di class contact-submit */
+}
+
+/* DI BAWAH INI ADALAH UNTUK MENGUBAH BAGIAN FOOTER YANG DIMANA UNTUK MEMBUAT KONTEN BAGIAN BAWAH PADA TAMPILAN */
+footer {
+    background-color: #2f5167;
+    /* Memberi background pada bagian footer */
+    height: 120px;
+    /* Memberi tinggI untuk konten footer pada bagian footer */
+    padding: 40px;
+    /* Memberi jarak di dalam kotak pada bagian footer apabila diberi background-color terlebih dahulu supaya terlihat, disini memberi jarak 40px untuk keseluruhan atas,bawah,kanan,kiri */
+    color: #fff;
+    /* Memberi warna tulisan pada bagian footer */
+}
+
+.footer-logo {
+    float: left;
+    /* Menempatkan Logo atau Tulisan di sebelah kiri pada bagian footer  */
+    font-size: 30px;
+    /* Memberi ukuran tulisan untuk logo atau Tulisan  */
+}
+
+.footer-list {
+    float: right;
+    /* Menempatkan Logo atau Tulisan di sebelah kanan pada bagian footer. Ini diurutkannya ke bawah apabila float:right; diberi pada bagian footer-list, dan diurutkan kesamping apabila diberi pada footer-list bagian li   */
+}
+
+.footer-list li {
+    list-style: none;
+    /* Menghilangkan list pada footer-list bagian li */
+    padding-bottom: 30px;
+    /* Memberi jarak bawah 30px antar tulisan di dalam kotak pada bagian footer-list li apabila diberi background-color terlebih dahulu supaya terlihat */
+}
